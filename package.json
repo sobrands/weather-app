@@ -1,7 +1,7 @@
 {
-  "name": "restaurant",
+  "name": "weather-app",
   "version": "1.0.0",
-  "description": "Restaurant page",
+  "description": "Weather App",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sobrands/restaurant.git"
+    "url": "git+https://github.com/sobrands/weather-app.git"
   },
   "author": "Brandon Lim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sobrands/restaurant/issues"
+    "url": "https://github.com/sobrands/weather-app/issues"
   },
-  "homepage": "https://github.com/sobrands/restaurant#readme",
+  "homepage": "https://github.com/sobrands/weather-app#readme",
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.8",
@@ -26,7 +26,11 @@
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
+    "postcss": "^8.4.34",
+    "postcss-loader": "^8.1.0",
+    "postcss-preset-env": "^9.3.0",
     "style-loader": "^3.3.3",
+    "tailwindcss": "^3.4.1",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
